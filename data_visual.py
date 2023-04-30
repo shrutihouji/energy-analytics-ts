@@ -5,6 +5,7 @@ import mpld3
 from numpy import array
 import pickle
 import math
+import xlrd
 
 import seaborn as sns
 import matplotlib.pyplot as plt
