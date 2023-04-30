@@ -22,12 +22,12 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.stattools import pacf
 from statsmodels.tsa.stattools import acf
 
-import tensorflow as tf
-from tensorflow import keras
-from keras import layers
-from keras.models import Sequential
-from keras.layers import LSTM
-from keras.layers import Dense 
+#import tensorflow as tf
+#from tensorflow import keras
+#from keras import layers
+#from keras.models import Sequential
+#from keras.layers import LSTM
+#from keras.layers import Dense 
 
 #Display table
 def display_data_price():
