@@ -20,13 +20,13 @@ from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.stattools import pacf
 from statsmodels.tsa.stattools import acf
 
-import tensorflow as tf
-from tensorflow import keras
-from keras import layers
-from keras.optimizers import SGD
-from keras.models import Sequential
-from keras.layers import LSTM
-from keras.layers import Dense 
+#import tensorflow as tf
+#from tensorflow import keras
+#from keras import layers
+#from keras.optimizers import SGD
+#from keras.models import Sequential
+#from keras.layers import LSTM
+#from keras.layers import Dense 
 
 app=Flask(__name__)
 @app.route("/")
